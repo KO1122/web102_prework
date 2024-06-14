@@ -170,7 +170,14 @@ const sortedGames = GAMES_JSON.sort((item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+const [topFundedGame, runnerUp, ...rest] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+const pTopFundedGame = document.createElement("p");
+pTopFundedGame.innerText = `${topFundedGame.name}`;
+firstGameContainer.appendChild(pTopFundedGame);
 
 // do the same for the runner up item
+const pRunnerUp = document.createElement("p");
+pRunnerUp.innerText = `${runnerUp.name}`;
+secondGameContainer.appendChild(pRunnerUp);
