@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/seamonsterfund-demo-oVPlO1N' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](demo.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
